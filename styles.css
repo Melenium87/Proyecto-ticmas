@@ -13,6 +13,9 @@ font-size: 80px;
 font-size: 3vh;
 }
 
+.flex{
+    display: flex;
+}
 .letras{
     color: white;
     background-color: #1b1b2269;
@@ -36,7 +39,7 @@ position:absolute;
 top: 0;
 left: 0;
 width: 100%;
-height: 800px;
+height: 713px;
 background-color: #1c1c1d;
 opacity: 0,5;
 mix-blend-mode: overlay;
@@ -49,9 +52,26 @@ mix-blend-mode: overlay;
     align-items: center;
     text-align: center;
     
+}
+.lp{
+    margin-right: 20px;
+}
+.contenedorimg{
+    overflow: hidden;
+    max-height: 300px;
+    width: 100%;
+    
+
+}       
+.imgtrabajo{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
     
 }
-
+.textcentrado{
+    text-align: center;
+}
 .centrado{
     display: flex;
     justify-content: center;
@@ -90,6 +110,7 @@ mix-blend-mode: overlay;
     top: 0;
     width: 100%;
     height: 850px;
+    max-height: 713px;
     object-fit: cover;
     filter: blur(2px);
 }
@@ -114,7 +135,7 @@ mix-blend-mode: overlay;
     
     width: 100%;
     height: 710px;
-    
+    overflow: hidden;
     
     
 
@@ -125,25 +146,21 @@ mix-blend-mode: overlay;
     
 }
 .box3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
     background: #373B44;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4286f4, #1b4ec5);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #240d52, #836c20); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 overflow: hidden;
     width: 100%;
+    padding-bottom: 10px;
     
     
 }
 .box4{
+    overflow: hidden;
+    padding-top: px;
     background-color: rgb(9, 255, 0);
     width: 100%;
-    height: 3000px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 .box5{
     background-color: rgb(255, 174, 0);

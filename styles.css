@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nombre{
+font-family: 'Acme', sans-serif;
+font-size: 15vh;
+}
+
+.descripcion{
+font-size: 3vh;
+}
+
+.letras{
+    color: white;
+    background-color: #1b1b2269;
+    border-radius: 10px;
+}
+
+.sobre{
+    padding-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+.Main{
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 800px;
+background-color: #1c1c1d;
+opacity: 0,5;
+mix-blend-mode: overlay;
+}
+
+.about-me{
+    font-family: 'Libre Bodoni', serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    
+    
+}
+
+.border{
+    border: 2px solid red;
+    border-radius: 50px;
+    filter: blur(5px);
+}
+.Fotografo{
+    width: 100%;
+    height: 500px;
+    margin-top: 26px;
+    border: 3px solid #0e0520;
+    border-radius: 50px;
+    background: #0e0520;
+    box-shadow: 6px 6px 15px 9px  black;
+    position: relative;
+}
+
+
+
+#je{
+    min-width: 100vh;
+}
+
+.Main-Video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+
+.bar{
+    background-color: #0e0520;
+    text-align: center;
+    width: 100%;
+}
+
+
+.pad{
+    margin: 10px;
+    font-size: 20px;
+    
+}
+
+
+
+.prueba1{
+    
+    width: 100%;
+    height: 710px;
+    
+    
+    
+
+}
+.box2{
+    background-color: rgb(51, 49, 53);
+    width:100%;
+    
+}
+.box3{
+    position: absolute;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #1b4ec5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    width: 100%;
+    height: 560px;
+    
+}
+.box4{
+    background-color: rgb(9, 255, 0);
+    width: 100%;
+    height: 3000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5{
+    background-color: rgb(255, 174, 0);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6{
+    background-color: rgb(33, 34, 34);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box7{
+    background-color: aqua;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

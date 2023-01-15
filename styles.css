@@ -46,6 +46,8 @@ mix-blend-mode: overlay;
     font-family: 'Libre Bodoni', serif;
     font-size: 100%;
     color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
     
     
 }
@@ -56,6 +58,11 @@ mix-blend-mode: overlay;
     margin-top: 25%;
 }
 
+.centrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .border{
     border: 2px solid red;
     border-radius: 50px;
@@ -64,12 +71,13 @@ mix-blend-mode: overlay;
 .Fotografo{
     width: 100%;
     height: 100%;
-    margin-top: 26px;
+    position: relative;
+    top: 0%;
     border: 3px solid #0e0520;
     border-radius: 50px;
     background: #0e0520;
     box-shadow: 6px 6px 15px   black;
-    position: relative;
+    
 }
 
 
@@ -122,7 +130,7 @@ mix-blend-mode: overlay;
     background: #373B44;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4286f4, #1b4ec5);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+overflow: hidden;
     width: 100%;
     height: 560px;
     

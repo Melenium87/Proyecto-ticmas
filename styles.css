@@ -45,6 +45,11 @@ opacity: 0,5;
 mix-blend-mode: overlay;
 }
 
+.tamanio{
+    width: 100%;
+    max-height: 400px;
+}
+
 .about-me{
     font-family: 'Libre Bodoni', serif;
     font-size: 20px;
@@ -63,10 +68,21 @@ mix-blend-mode: overlay;
     
 
 }       
+.carousel .item {
+    height: 100%;
+    max-height: 500px;
+  }
+  
+  .item img {
+      width: 100%;
+      
+  }
+
 .imgtrabajo{
     overflow: hidden;
     height: 100%;
     width: 100%;
+    max-width: 100px;
     
 }
 .textcentrado{

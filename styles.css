@@ -44,12 +44,24 @@ background-color: #1c1c1d;
 opacity: 0,5;
 mix-blend-mode: overlay;
 }
-
+.correccion{
+    padding-top: 3px;
+}
+.camara svg{
+    width: 40%;
+    height: 40%;
+    padding-bottom: 5px;
+}
 .tamanio{
     width: 100%;
     max-height: 400px;
 }
 
+.iconmenu svg{
+    color: white;
+    width: 100%;
+    height: 100%;
+}
 .about-me{
     font-family: 'Libre Bodoni', serif;
     font-size: 20px;

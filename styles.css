@@ -89,10 +89,16 @@ mix-blend-mode: overlay;
 .textcentrado{
     text-align: center;
 }
+.correccion{
+    height: auto;
+    max-height: 456px;
+}
 .centrado{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    
 }
 .border{
     border: 2px solid red;
@@ -165,7 +171,7 @@ mix-blend-mode: overlay;
 .box3{
     background: #373B44;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #4286f4, #1b4ec5);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #240d52, #836c20); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to bottom, #240d52, #663413); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 overflow: hidden;
     width: 100%;
     padding-bottom: 10px;
@@ -176,6 +182,7 @@ overflow: hidden;
     overflow: hidden;
     padding-top: px;
     background-color: rgb(9, 255, 0);
+    background: linear-gradient(to bottom, #6e3915, rgb(230, 74, 2) ,#830121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     
 }

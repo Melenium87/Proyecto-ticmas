@@ -1,6 +1,13 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
+.jobs{
+    display: grid;
+}
+.jobs h2{
+    font-size: 60px;
+}
+
 
 .nombre{
 text-align: center;
@@ -15,6 +22,10 @@ font-size: 3vh;
 
 .flex{
     display: flex;
+}
+.bodoni{
+    font-family: 'Libre Bodoni', serif;
+    color: white;
 }
 .letras{
     color: white;
@@ -52,11 +63,11 @@ mix-blend-mode: overlay;
     height: 40%;
     padding-bottom: 5px;
 }
-.tamanio{
-    width: 100%;
-    max-height: 400px;
+/*.tamanio{
+   
+    
 }
-
+*/
 .iconmenu svg{
     color: white;
     width: 100%;
@@ -74,13 +85,17 @@ mix-blend-mode: overlay;
     margin-right: 20px;
 }
 .contenedorimg{
-    margin: 7px;
-    overflow: hidden;
-    max-height: 300px;
-    width: 300px;
+    background-color: #da6683;
+    margin: 4px;
+    max-height: 700px;
+    
+    
     
 
 }       
+.fit{
+   object-fit: con;
+}
 .carousel .item {
     height: 100%;
     max-height: 500px;
@@ -93,9 +108,10 @@ mix-blend-mode: overlay;
   }
 
 .imgtrabajo{
-    overflow: hidden;
+    max-height:90px ;
     height: 100%;
     width: 100%;
+   
     
     
 }
@@ -158,7 +174,9 @@ mix-blend-mode: overlay;
     width: 100%;
 }
 
-
+.pading{
+    margin-bottom: 40px;
+}
 .pad{
     margin: 10px;
     font-size: 20px;

@@ -1,3 +1,7 @@
+*{
+    font-family: 'Libre Bodoni', serif;
+    color: white;
+}
 body{
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -63,11 +67,7 @@ mix-blend-mode: overlay;
     height: 40%;
     padding-bottom: 5px;
 }
-/*.tamanio{
-   
-    
-}
-*/
+
 .iconmenu svg{
     color: white;
     width: 100%;
@@ -85,7 +85,7 @@ mix-blend-mode: overlay;
     margin-right: 20px;
 }
 .contenedorimg{
-    background-color: #da6683;
+    
     margin: 4px;
     max-height: 700px;
     
@@ -93,6 +93,10 @@ mix-blend-mode: overlay;
     
 
 }       
+.contenedorimg.card.card-body{
+    background-color: black;
+    color: white;
+}
 .fit{
    object-fit: con;
 }
@@ -132,7 +136,7 @@ mix-blend-mode: overlay;
 .border{
     border: 2px solid red;
     border-radius: 50px;
-    filter: blur(5px);
+    
 }
 .Fotografo{
     display: flex;

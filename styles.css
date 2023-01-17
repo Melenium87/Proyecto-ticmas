@@ -11,6 +11,68 @@ body{
 .jobs h2{
     font-size: 60px;
 }
+@media screen and  (min-width: 735px){
+    .fondocv{
+        background-image: url("CV/imagencv.png");
+        background-size: cover;
+        height: 400px;
+        
+    }
+    .titulo span{
+        font-size: 10vh;
+        text-align: center;
+        align-items: center;
+        
+    }
+    .titulo span.nombre{
+        font-size: 40px;
+    }
+    .info{
+        border-radius: 9px;
+        font-size: 20px; 
+    }
+
+    
+}
+
+.separado{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+
+
+}
+
+.links{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.links a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.links a svg{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.links a:hover{
+    height: 30px ;
+    width: 30px;
+
+}
+
+.links a svg:hover{
+    height: 30px;
+    width: 30px;
+
+}
+
 
 
 .nombre{
@@ -158,9 +220,10 @@ mix-blend-mode: overlay;
 
 
 .info p{
-    background-color: #373b44c0;
+    background-color: rgba(0, 0, 0, 0.418);
     border-radius: 9px;
     font-size: 100%;
+    margin-bottom: 150px;
 }
 .titulo span{
     font-size: 4vh;
@@ -172,9 +235,11 @@ mix-blend-mode: overlay;
 }
 .fondocv{
     background-image: url("CV/imagencv.png");
-    
     background-size: cover;
+    object-fit: cover;
 }
+
+
 #je{
     min-width: 100%;
 }
@@ -235,13 +300,13 @@ overflow: hidden;
     overflow: hidden;
     padding-top: px;
     background-color: rgb(9, 255, 0);
-    background: linear-gradient(to bottom, #6e3915, rgb(230, 74, 2) ,#830121); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #6e3915,#240d52); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width: 100%;
     
 }
 .box5{
     padding-top: 30px;
-    background-color: rgb(255, 174, 0);
+    background: linear-gradient(to bottom, #10161e,#1a2738);
     width: 100%;
     height: 1500px;
     display: flex;

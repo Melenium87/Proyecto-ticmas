@@ -34,13 +34,28 @@ body{
 
     
 }
+ul{
+    background-color: #1a2738;
+}
 
+.li_separado  ul  li{
+    margin-bottom: 20px;
+}
+.textcentrado{
+    text-align: center;
+}
 .separado{
     width: 100%;
     position: absolute;
     bottom: 0;
 
 
+}.fondo-links{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.link{
+    text-align: center;
+    
 }
 
 .links{

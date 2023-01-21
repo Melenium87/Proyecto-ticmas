@@ -215,6 +215,11 @@ mix-blend-mode: overlay;
     height: auto;
     max-height: 456px;
 }
+.centered{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
 .centrado{
     display: flex;
     justify-content: center;

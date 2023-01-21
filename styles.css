@@ -241,6 +241,9 @@ mix-blend-mode: overlay;
     box-shadow: 6px 6px 15px   black;
     
 }
+.card-text{
+    text-align: center;
+}
 
 .info p{
     background-color: rgba(0, 0, 0, 0.418);

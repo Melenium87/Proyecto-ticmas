@@ -67,6 +67,7 @@ li>span{
 }
 
 
+
 .separado{
     width: 100%;
     position: absolute;
@@ -99,20 +100,6 @@ li>span{
     text-align: center;
     align-items: center;
 }
-
-.links a:hover{
-    height: 30px ;
-    width: 30px;
-
-}
-
-.links a svg:hover{
-    height: 30px;
-    width: 30px;
-
-}
-
-
 
 .nombre{
 text-align: center;
@@ -297,7 +284,62 @@ mix-blend-mode: overlay;
     
 }
 
-
+@media screen and  (min-width: 1440px){
+    *{
+        font-size: 30px;
+    }
+    .about-me{
+        font-size: 30px;
+    }
+    .info{
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 9px;
+    font-size: 30px;
+    margin-bottom: 150px;
+    padding-left: 8px;
+    padding-right: 5px;
+    }
+    .fondocv{
+        
+        background-image: url("CV/imagencv.png");
+        background-size: cover;
+        object-fit: cover;
+        height: 600px;
+    
+    }
+    li>span{
+        font-size: 25px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .links a svg{
+        height: 50px;
+        width: 50px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    #estudios{
+        width: 70px; 
+        height: 67px;
+    }
+    #maletin{
+        width: 57px;
+        height: 57px;
+    }
+    #tecnologias{
+        width: 63px;
+        height: 63px;
+    }
+    #habilidades{
+        width: 70px;
+        height: 70px;
+    }
+    #certificado{
+        height: 57px;
+        width: 57px;
+    }
+    
+}
 
 .prueba1{
     

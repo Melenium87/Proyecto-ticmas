@@ -272,21 +272,6 @@ p > ul > li > span {
   text-decoration: none;
 }
 
-.nopunto {
-  list-style: none;
-  height: 90%;
-  border-bottom: 2px solid black;
-}
-.contacto > li {
-  margin-bottom: 9px;
-}
-@media screen and (min-width: 575px) {
-  .nopunto {
-    list-style: none;
-    height: 90%;
-    border-bottom: 0px solid black;
-  }
-}
 @media screen and (min-width: 1439px) {
   * {
     font-size: 30px;
@@ -295,8 +280,6 @@ p > ul > li > span {
     font-size: 30px;
   }
   .info {
-    background-color: rgba(0, 0, 0, 0.418);
-    border-radius: 9px;
     font-size: 30px;
     margin-bottom: 150px;
     padding-left: 8px;

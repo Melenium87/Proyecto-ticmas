@@ -2,24 +2,20 @@
   font-family: "Libre Bodoni", serif;
   color: white;
 }
-@media screen and (min-width: 768px) {
-  .fondocv {
-    background-image: url("CV/imagencv.png");
-    background-size: cover;
-    height: 400px;
-  }
-  .titulo span {
-    font-size: 10vh;
-    text-align: center;
-    align-items: center;
-  }
-  .titulo span.nombre {
-    font-size: 40px;
-  }
-  .info {
-    border-radius: 9px;
-    font-size: 20px;
-  }
+.transicion {
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  display: none;
+  width: 100%;
+}
+.seguimiento {
+  z-index: 100000;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  width: 100%;
 }
 .jobs {
   display: grid;

@@ -45,7 +45,7 @@
 .li_separado > h4 {
   color: #ceaa33;
 }
-li > span {
+p > ul > li > span {
   font-size: 13px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -83,22 +83,14 @@ li > span {
   justify-content: center;
   text-align: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.418);
 }
-a {
-  text-align: center;
-  text-decoration: none;
-}
+
 .links a {
   color: white;
   text-align: center;
   text-decoration: none;
 }
-a svg {
-  justify-content: left;
-  text-align: left;
-  align-items: left;
-}
+
 .links a svg {
   justify-content: center;
   text-align: center;
@@ -274,8 +266,26 @@ a svg {
   margin: 10px;
   font-size: 20px;
 }
+.social a {
+  color: white;
+
+  text-decoration: none;
+}
+
 .nopunto {
   list-style: none;
+  height: 90%;
+  border-bottom: 2px solid black;
+}
+.contacto > li {
+  margin-bottom: 9px;
+}
+@media screen and (min-width: 575px) {
+  .nopunto {
+    list-style: none;
+    height: 90%;
+    border-bottom: 0px solid black;
+  }
 }
 @media screen and (min-width: 1439px) {
   * {

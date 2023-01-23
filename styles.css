@@ -334,6 +334,7 @@ p > ul > li > span {
   .links a {
     cursor: pointer;
   }
+
   .links a svg {
     height: 50px;
     width: 50px;

@@ -331,6 +331,9 @@ p > ul > li > span {
     background-color: #1f2e42;
     padding: 40px;
   }
+  .links a {
+    cursor: pointer;
+  }
   .links a svg {
     height: 50px;
     width: 50px;

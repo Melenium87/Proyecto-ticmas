@@ -1,20 +1,57 @@
 * {
   font-family: "Libre Bodoni", serif;
   color: white;
+  padding: 0%;
+  margin: 0;
 }
-.transicion {
-  z-index: 100000;
-  position: fixed;
+#navbar {
+  font-size: 24px;
+  background-color: #0e0520;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 5%;
+  height: 80px;
+}
+#navbar a svg {
+  position: relative;
   top: 0;
-  transition: 0.5s;
+  height: 120px;
+}
+#navbar a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0px 10px 10px#000000;
+  transition: all 0.1s;
+}
+#navbar ul {
+  list-style: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+#navbar ul li {
+  display: inline-block;
+  padding: 0 20px;
+  transition: all 0.1s;
+}
+#navbar ul li:hover {
+  transform: scale(1.2);
+}
+#navbar a:hover {
+  background-color: #0099ff;
+  padding: 4px;
+  border-radius: 20px;
+  transform: scale(1.2);
+}
+
+.transicion {
   display: none;
-  width: 100%;
 }
 .seguimiento {
-  z-index: 100000;
+  z-index: 2;
   position: fixed;
-  top: 0;
-  transition: 0.5s;
+  top: -100%;
+  transition: all 0.5s;
   width: 100%;
 }
 .jobs {
@@ -108,6 +145,7 @@ p > ul > li > span {
   background-color: #1b1b2269;
   border-radius: 10px;
 }
+
 .padding {
   padding: 20px;
 }
@@ -120,7 +158,10 @@ p > ul > li > span {
   width: 60%;
   margin: auto;
   position: relative;
-  z-index: 2;
+  z-index: 1000;
+}
+.sobre p {
+  font-size: 4vh;
 }
 
 .Main {
@@ -282,6 +323,87 @@ p > ul > li > span {
 }
 
 @media screen and (max-width: 767px) {
+  #navbar {
+    font-size: 18px;
+    background-color: #0e0520;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 5%;
+    height: 60px;
+  }
+  #navbar a svg {
+    position: relative;
+    top: 0;
+    height: 120px;
+  }
+  #navbar a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 10px 10px#000000;
+    transition: all 0.1s;
+  }
+  #navbar ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  #navbar ul li {
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.1s;
+  }
+  #navbar ul li:hover {
+    transform: scale(1.2);
+  }
+  #navbar a:hover {
+    background-color: #0099ff;
+    padding: 4px;
+    border-radius: 20px;
+    transform: scale(1.2);
+  }
+  @media screen and (max-width: 553px) {
+    #navbar {
+      font-size: 14px;
+      background-color: #0e0520;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 5%;
+      height: 80px;
+    }
+    #navbar a svg {
+      position: relative;
+      top: 0;
+      height: 120px;
+    }
+    #navbar a {
+      text-decoration: none;
+      color: white;
+      text-shadow: 0px 10px 10px#000000;
+      transition: all 0.1s;
+    }
+    #navbar ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding: 0;
+    }
+    #navbar ul li {
+      display: inline-block;
+      padding: 0 20px;
+      transition: all 0.1s;
+    }
+    #navbar ul li:hover {
+      transform: scale(1.2);
+    }
+    #navbar a:hover {
+      background-color: #0099ff;
+      padding: 4px;
+      border-radius: 20px;
+      transform: scale(1.2);
+    }
+  }
+
   .fondocv {
     background-image: url("CV/imagencv.png");
     background-size: cover;

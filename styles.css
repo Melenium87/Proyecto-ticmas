@@ -364,7 +364,7 @@ p > ul > li > span {
   }
   @media screen and (max-width: 553px) {
     #navbar {
-      font-size: 14px;
+      font-size: 12px;
       background-color: #0e0520;
       display: flex;
       justify-content: space-between;

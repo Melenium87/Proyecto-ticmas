@@ -364,7 +364,7 @@ p > ul > li > span {
   }
   @media screen and (max-width: 553px) {
     #navbar {
-      font-size: 12px;
+      font-size: 10px;
       background-color: #0e0520;
       display: flex;
       justify-content: space-between;
@@ -390,7 +390,7 @@ p > ul > li > span {
     }
     #navbar ul li {
       display: inline-block;
-      padding: 0 20px;
+      padding: 0 10px;
       transition: all 0.1s;
     }
     #navbar ul li:hover {
